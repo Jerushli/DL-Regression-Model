@@ -76,8 +76,8 @@ initial_bias = model.linear.bias.item()
 
 print(f"Initial Weight: {initial_weight:.2f}")
 print(f"Initial Bias: {initial_bias:.2f}")
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("Name: JERUSHLIN JOSE JB")
+print("Register Number: 212222240039\n")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 
 loss_function = nn.MSELoss()
@@ -106,8 +106,8 @@ plt.show()
 
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("Name: JERUSHLIN JOSE JB")
+print("Register Number: 212222240039\n")
 print(f'Final Weight: {final_weight:.8f}, Final Bias: {final_bias:.8f}\n')
 
 x1 = t.tensor([X.min().item(),X.max().item()])
@@ -123,8 +123,8 @@ plt.show()
 
 x_new = t.tensor([[120.0]])
 y_new_pred = model(x_new).item()
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("Name: JERUSHLIN JOSE JB")
+print("Register Number: 212222240039\n")
 print(f"\nPrediction for x = 120:  {y_new_pred:.8f}")
 
 ```
